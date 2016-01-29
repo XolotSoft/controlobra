@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `bank_project` (
+  `bankProjId` int(11) NOT NULL AUTO_INCREMENT,
+  `bankId` int(11) NOT NULL,
+  `projectId` int(11) NOT NULL,
+  PRIMARY KEY (`bankProjId`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;

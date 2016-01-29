@@ -1,0 +1,38 @@
+table {
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+td, th {
+	border: 1px solid #CCC;
+}
+
+thead, tfoot {
+	background-color: #EBEBEB;
+}
+
+tr.rowodd {
+	background-color: #FFF;
+}
+
+tr.roweven {
+	background-color: #F8F8F8;
+}
+
+.sortcol {
+	cursor: pointer;
+	padding-right: 20px;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.sortasc {
+	background-color: #DDFFAC;
+	background-image: url(up.gif);
+}
+.sortdesc {
+	background-color: #B9DDFF;
+	background-image: url(down.gif);
+}
+.nosort {
+	cursor: default;
+}

@@ -1,0 +1,1 @@
+{include file="{$DOC_ROOT}/templates/forms/project-new-2.tpl"}

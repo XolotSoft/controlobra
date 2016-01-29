@@ -1,0 +1,97 @@
+a, a:active, a:link, a:visited { text-decoration:none; color: #069; }
+a:hover { text-decoration: underline; color: #C00; }
+#textcontent { padding:10px !important; width:900px !important; } 
+#wrapper { padding-bottom:10px !important;}
+#footer { text-align:center; padding:15px 0px; color: #666; font-size:11px; }
+.hidden { display:none; }
+.text { padding:10px 15px; }
+.nopadding { padding:0px !important; }
+.floatLeft { float:left; }
+.floatRight { float:right; }
+
+
+/*******************************************************************************
+  PORTLETS AND GRID
+*******************************************************************************/
+#portlets { padding:0px 10px; }
+.column { width: 450px; float: left; padding-bottom: 0px; }
+.column#left { margin-right:17px; }
+.portlet { margin: 0 0em 1em 0; }
+.portlet-header { margin: 0em; padding-bottom: 5px; padding-left: 6px; padding-top:4px; padding-right:6px; font-size:12px; border: none !important; color: #333 !important; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; cursor:move; }
+.portlet-header .ui-icon { float: right; cursor:pointer; }
+.portlet-header img { float:left; margin-right:5px; }
+#portlets .fixed { cursor:auto; } 
+.portlet-content { padding: 0.8em; font-size:12px !important; color: #333; border-top:1px solid #999 !important; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; }
+.ui-sortable-placeholder { border: 1px dashed #999 !important; visibility: visible !important; height: 100px !important; background: #EBEBEB;}
+.ui-sortable-placeholder * { visibility: hidden; }
+
+/*******************************************************************************
+  TABLE DESIGN 
+*******************************************************************************/
+
+.boxTable th {
+	font-size: 13px;
+	font-weight: normal;
+	padding: 8px;
+	border-top: 1px solid #FFF;
+	color: #333;
+	text-align: center;
+}
+.boxTable td {
+	border-top: 1px solid #CCC;
+	color: #666;
+}
+
+/*** NEW STYLES ***/
+
+.txtTotal{
+	font-weight:bold;
+	font-size: 14px;
+	color:#000000;
+}
+.txtTotal2{
+	font-weight:bold;
+	font-size: 14px;
+	color:#FFFFFF;
+}
+
+/** BORDER COLUMNAS **/
+
+.colA{
+	border-top:1px solid #FFFFFF !important;
+	border-right:1px solid #FFFFFF !important;
+	border-left:1px solid #FFFFFF !important;
+	border-bottom:1px solid #FFFFFF !important;
+}
+
+.colR{
+	border-right:1px solid #FFFFFF !important;
+}
+.colRD{
+	border-right:1px solid #CCCCCC !important;
+}
+.colRC{
+	border-right:1px solid #DCE6F1 !important;
+}
+.colRS{
+	border-right:1px solid #C4BD97 !important;
+}
+.colRT{
+	border-right:1px solid #A6A6A6 !important;
+}
+.colB{
+	border-bottom:1px solid #FFFFFF !important;
+}
+.colRB{
+	border-right:1px solid #FFFFFF !important;
+	border-bottom:1px solid #FFFFFF !important;
+}
+.colTRB{
+	border-top:1px solid #FFFFFF !important;
+	border-right:1px solid #FFFFFF !important;
+	border-bottom:1px solid #FFFFFF !important;
+}
+.colTR{
+	border-top:1px solid #FFFFFF !important;
+	border-right:1px solid #FFFFFF !important;
+}

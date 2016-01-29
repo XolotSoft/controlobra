@@ -1,0 +1,53 @@
+#tblMain table {
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+#tblMain table td, 
+#tblMain table th {
+    border: 1px solid black;
+}
+
+.colA{
+	border-top:1px solid #FFFFFF !important;
+	border-right:1px solid #FFFFFF !important;
+	border-left:1px solid #FFFFFF !important;
+	border-bottom:1px solid #FFFFFF !important;
+}
+
+.colR{
+	border-right:1px solid #FFFFFF !important;
+}
+.colRD{
+	border-right:1px solid #CCCCCC !important;
+}
+.colRC{
+	border-right:1px solid #DCE6F1 !important;
+}
+.colRS{
+	border-right:1px solid #C4BD97 !important;
+}
+.colRT{
+	border-right:1px solid #A6A6A6 !important;
+}
+.colB{
+	border-bottom:1px solid #FFFFFF !important;
+}
+.colRB{
+	border-right:1px solid #FFFFFF !important;
+	border-bottom:1px solid #FFFFFF !important;
+}
+.colTRB{
+	border-top:1px solid #FFFFFF !important;
+	border-right:1px solid #FFFFFF !important;
+	border-bottom:1px solid #FFFFFF !important;
+}
+.colTR{
+	border-top:1px solid #FFFFFF !important;
+	border-right:1px solid #FFFFFF !important;
+}
+
+.tblNoBorder a:link,
+.tblNoBorder a:visited{
+	color:#000000;
+}
